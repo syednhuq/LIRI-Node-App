@@ -1,0 +1,22 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "liri",
+  "main": "movie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syednhuq/LIRI-Node-App.git"
+  },
+  "author": "Syed Huq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syednhuq/LIRI-Node-App/issues"
+  },
+  "homepage": "https://github.com/syednhuq/LIRI-Node-App#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
