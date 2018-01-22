@@ -1,8 +1,8 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "liri",
-  "main": "movie.js",
+  "description": "Liri app for twitter, spotify and omdb apis",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,10 +13,13 @@
   "author": "Syed Huq",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/syednhuq/LIRI-Node-App/issues"
+    "url": "https://github.com/syednhuq/LIRI-Node-App/"
   },
   "homepage": "https://github.com/syednhuq/LIRI-Node-App#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
     "twitter": "^1.7.1"
   }
 }
